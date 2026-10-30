@@ -1,26 +1,27 @@
-2026-10-29
-每日早报 · 10月29日
+2026-10-30
+每日早报 · 10月30日
 
-【AI 工具快报】
-1. Google 发布 Gemini 4 Carbon：Artificial Analysis 指数第一（59），编程/智能体/网络安全大幅提升，API 价格 $2/百万输入、$10/百万输出。适合做代码审计和长链路 agent。https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
-2. GitHub Copilot Fusion 正式上线：自动选模型并编排，官方称 Fusion Max 效果接近 Claude Code(Opus 5.5 Max)，成本约一半；VS Code 里使用有 7 折优惠至 11月30日。https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/
-3. VS Code 1.144：加入 AI 生图、实验性电脑操控、云端 agent 自动化和 agent 市场，做落地页素材可直接生图。https://visualstudiomagazine.com/articles/2026/10/28/vs-code-1-144-unleashes-copilot-fusion-ai-image-generation-and-computer-use.aspx
-4. Copilot 聊天内可直接生成/编辑图片（GPT Image 2.5 Flare），结果存入项目。https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot/
-5. 商汤开源 27B 的 SenseNova-6.8-Code2Video：通过写代码逐镜头生成视频，可研究做营销短视频自动化。https://aiweekly.co/ai-news-today
-今日未查到新的公开邀请码/内测名额。
+【一、AI 工具快报】
+1. Google 发布 Gemini 4 Carbon（10/28）：主打长程工程与安全代码，Artificial Analysis 指数 59 分登顶；目前先开放给网络安全防御者，介绍价 $2/$10 每百万 token，之后 $4/$20。对你：编程能力值得关注，等开放 API。https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+2. OpenAI 发布 GPT-6.1 Terra（10/26）：API 模型 ID gpt-6.1-terra，主打视觉推理、电脑操作和写作。对你：可测营销文案与自动化操作。https://openai.com/index/introducing-gpt-6-1-terra/
+3. Mistral 开放 Large 4 权重（10/29）：万亿参数模型，面向网络安全。对你：可自部署的开源大模型。https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/
+4. OpenRouter 重做默认路由（10/28）：不再只看价格，综合延迟、吞吐、错误率；官方称首字延迟约快16.9%、容量错误少67%，成本约升6%，无需改代码。https://dailycited.com/d/2026-10-29/
+5. GitHub Copilot Fusion 正式可用（10/28）：自动选模型，分 Standard/High/Max 三档。对你：写代码时可省去选模型。https://www.aimadetools.com/blog/ai-dev-weekly-032-gpt-61-terra-gemini-carbon-kimi-copilot-fusion/
+6. OpenAI 更新 Model Spec（10/29）：围绕五项核心价值重组，了解模型行为边界。https://openai.com/index/updated-model-spec
 
-【支付行业动态】
-1. 银盛支付福建分公司因违反收单业务管理规定，被没收8583.24元、罚款49万元；银盛年内第三次被罚，累计罚没超2045万元，已回应称整改完成。https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuvcq6521243.shtml
-2. 10月26日人民银行深圳市分行准予银盛支付高管变更（卢祎伟不再担任，刘丹茹任职）。https://news.10jqka.com.cn/20261027/c681155694.shtml
+【二、支付行业动态】
+1. 银盛支付年内第三次被罚：福建分公司因违反收单业务管理规定，被罚没约49.86万元；年内罚没合计超2000万元。https://finance.eastmoney.com/a/202610293913630962.html
+2. 海科融通支付牌照将于12月21日到期，今年已收两张罚单（9月湖南分公司罚没约374.87万元），续展压力大。同上来源。
+3. 银联商务高管调整：人行上海市分行公示新增董事胡浩中、姚岚，曹辉任副总经理。https://www.mpaypass.com.cn/news/202610/29164008.html
+4. 前三季度持牌支付机构罚单超40张，商户管理、清算、反洗钱为高频违规点。http://kt.ggel6k.cn/html/70d53699393.html
 
-【支付招标】（按截止日由近到远）
-1. 产业化中心饭堂收银系统设备采购（第四次）比价｜东莞松山湖科技产业发展有限公司｜最高含税预算12769元｜提交截止 10月29日12:00｜http://www.sslkg.com/Notice1_show.asp?id=2357
-2. 中储粮粮油交易中心支付即开票系统项目询比采购｜中储粮（雄安）粮油交易中心｜预算见公告｜文件购买至10月30日，应答截止 11月2日9:30｜https://www.mpaypass.com.cn/news/202610/27185847.html
-3. 邮储银行北京分行2026年商户收单业务收款设备和物料采购（邮惠付、数字人民币四合一码牌）｜邮储银行北京分行｜预算见公告｜招标文件获取 10月28日-11月3日，开标日期见公告｜https://www.chinapost.com.cn/cn/report/2610/5304-1.htm
-4. 江苏省烟草公司终端智能收单设备集中采购（双屏机、扫码枪、扫码平台）｜邮储银行江苏省分行｜预算266.4万元｜投标截止 11月17日9:30｜https://www.chinapost.com.cn/cn/report/2610/5124-1.htm
-5. 武汉岱山医院智慧收银项目（含聚合支付、MPOS）｜中国银行湖北省分行（招标人）｜最高限价49.5万元（智慧收银分项14.5万）｜截止见公告｜https://m.yfbzb.com/inviteBid/detail/20261026_641924269.html
-6. 2026年度支付系统等国产数据库扩容及维保项目（第二次招标）｜苏州农商行｜预算见公告｜截止见公告｜https://www.szrcb.com/szrcb/2026-10/26/article_2026102615200080238.shtml
-中标动态：
-7. 重庆银行2026收单业务一般类支付受理终端采购｜拟中标：惠尔丰信息系统，139.65万元；候选二三：联迪、新大陆｜https://www.mpaypass.com.cn/news/202610/27180803.html
-8. 龙江银行个人商户收单服务商采购（二次）｜中标：拉卡拉支付｜https://365trade.com.cn/jfwzb/887925.jhtml
+【三、支付招标】
+1. 邮储银行江苏省分行 江苏省烟草公司终端智能收单设备集中采购项目｜预算266.4万｜招标文件获取至11月4日17:00，开标日见公告｜https://www.mpaypass.com.cn/news/202610/28205122.html
+2. 天津市第五中心医院 智慧支付配套硬件系统项目｜预算70万｜文件获取至11月5日，开标12月9日 08:30｜http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261029_27587164.htm
+3. 建行盐城分行东台支行 东台国贸集团智能收单管理平台二期项目｜预算198.328万｜截止见公告｜https://www.dlnyzb.com/detail/43126740
+4. 工行海南省分行 特约商户专业化服务项目｜POS报价上限15元/月/台、二维码商户6元/月/户，服务30个月｜截止见公告｜https://bid.tgnet.com/Bidding/8458197431635357182n1.html
+5. 联通（福建）产业互联网福州分公司 某学院金融科技采购项目（第三轮询比，含聚合支付平台、人脸支付一体机）｜预算见公告｜截止见公告｜https://www.bangongzhaobiao.com/news-673e6796262f06d7e09ffa1a416431b3/
+6. 中国银行安徽省分行 中银智慧付MIS收单项目磋商公告｜预算、截止见公告｜https://jkv2.ahtba.org.cn/site/trade/affiche/detail/c95f5cec-d376-11f1-b7f6-00163e1f3e9b
+7. 兴业银行 新安统一支付系统迭代开发项目供应商征集调研（仅市场调研）｜https://www.mpaypass.com.cn/news/202610/28205520.html
+中标动态：邮储银行湖北省分行收单业务外包服务项目，中标单位为陕西浦思信息科技、安徽银卡信息科技 https://www.mpaypass.com.cn/news/202610/28205339.html ；工行陕西省分行商户收单机具项目入围5家（西安创为汇智、北京亚大通讯、广电运通、楚商数字、浙江保信）https://bid.10huan.com/2026/zb/1028/zb1793150147352328.html
 免费订阅：hot.yqspay.com
