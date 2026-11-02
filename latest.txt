@@ -1,53 +1,64 @@
-2026-11-01
-每日早报 · 11月1日（周日）
+2026-11-02
+每日早报 · 11月2日（周一，覆盖周末）
 
 【一、AI 工具快报】
-1. Claude 订阅改名：Max 20x 改称 Ultra（$200/月，价格权益不变），已验证的 Ultra 账号取消 5 小时滚动限额，只剩周额度。重度跑 Claude Code 不会再被半途掐断。
-https://dev.to/hiroki-ii-ai/ai-daily-digest-november-1-2026-google-folds-jules-into-antigravity-claude-ultra-drops-the-3e5e
-2. OpenAI Codex：Pro 100/200/500 和 Business Premium 额度翻倍，原定的 Pro 200 削减也取消。同价多一倍 agent 干活量。
-https://aiskills.team/en/blog/ai-digest-2026-10-31
-3. Claude Code 有死线：Opus 4.8 快速模式 11月30日移除，之后直接报错、不会回退，需改用 Opus 5.5；另新增 permissions.blockWritesOutsideWorkingDirectories，可禁止写工作目录之外。
-https://aicoding-guide.com/en/posts/weekly-2026-11-01/
-4. 安全提醒：10月29日 Cursor 扩展市场上约 11 小时挂着被篡改的 Claude Code 扩展（2.1.312/2.1.313），会写入攻击者 SSH 密钥。那段时间装过/更新过的，检查 authorized_keys 里有没有 "svc-telemetry"。
-https://cursor.com/blog/claude-code-extension-security-notice
-5. Mistral Large 4 开源权重：1.05 万亿参数、100 万上下文，$0.70/$2.10 每百万 token（约为 Preview 价一半）。数据要留本地可用；编程弱于 DeepSeek V4.1 Flash，对外售卖模型服务需另买商用授权。
-https://aiskills.team/en/blog/ai-digest-2026-10-31
-6. Phonic-1 语音 agent 登顶 Speech-to-Speech 榜，$0.07/分钟，5 分钟一通电话约 $0.35。可做门店/诊所电话接待、预约，给客户做获客跟进；基准成功率 79.9%，要留转人工。
-https://aiskills.team/en/blog/ai-digest-2026-10-31
+
+1. Claude 取消 Ultra 档 5 小时限额：Max 20x 改名 Ultra（$200/月），已验证账号不再有5小时会话限制，周限额不变。长时间跑 Claude Code 不用再等重置。
+https://aiskills.team/en/blog/ai-digest-2026-11-01
+
+2. OpenAI：12月起 ChatGPT 与 Codex 共享额度（Plus/Pro/Business），按 token 计量，高级模型和复杂任务耗得更多。用 Codex 写代码要重新估算额度。
+https://t.cj.sina.com.cn/articles/view/5993531560/1653e08a802001q5na?finpagefr=p_104
+
+3. Cursor 市场出现木马版 Claude Code 扩展，最多约5000人受影响，Cursor 要求升级到 2.1.314；Anthropic 称非其发布。如果装过，请更新并轮换本机密钥。
+https://aiskills.team/en/blog/ai-digest-2026-11-01
+
+4. DeepSeek Search/Fetch 接口11月1日起按次收费（约5元/千次，失败不收）。在 Harness、Claude Code 里用其搜索抓取的，成本要重算。
+https://www.aihr.wang/19662.html
+
+5. Ling 3.1 Flash 1019（100万上下文，主打编程/Agent）在 Vercel AI Gateway 免费到11月3日，建个 Key 即可试。
+https://www.aipromonow.com/promos/ling-31-flash-1019-free-vercel-ai-gateway-nov3-2026
+
+6. AMD Token Factory 免费开放15个模型接口（含 DeepSeek-V4.1-Flash、GLM-5.3-Flash、Qwen3.8-27B 等），BETA，注册即领，有每日/每分钟限额，勿放敏感数据。适合做小工具和获客脚本。
+https://mozhenzhen.com/news/amd-token-factory-free-models-202611
 
 【二、支付行业动态】
-1. 银盛支付福建分公司违反收单业务管理规定，被没收 8583.24 元、罚款 49 万元，是其年内第三张罚单；前三季度央行各分支机构对持牌支付机构罚单已超 40 张、罚没超 3.5 亿元。
-https://www.21jingji.com/article/20261029/herald/2ccd3dabee7d74706d6ee2c315aa3509.html
-http://www.zqrb.cn/review/gongsizhili/2026-10-31/A1793372343317.html
-2. 央行批准付临门重大变更：更名上海富临门支付，增资至 2 亿元，股东和实控人变更（金向华）；牌照有效期至 12月21日，重整后牌照基本保住。（10/30 披露）
+
+1. 央行批准付临门重大变更：股东、实控人、高管全换，公司更名「富临门」，重整走完监管审批。
 https://www.mpaypass.com.cn/news/202610/31093311.html
-3. 上海市通信管理局第七批通报：6 家持牌支付机构 17 款应用被点名（付临门 6、通联 4、快钱 4、杉德 1、电银 1、富友 1），问题含未明示个人信息规则、违规收集个人信息、未妥善处理投诉。
-https://finance.sina.com.cn/roll/2026-10-30/doc-iniwzprn2147266.shtml
-4. 人保支付正式注销（此前已决议解散）。
-https://www.mpaypass.com.cn/news/202610/30160303.html
+
+2. 上海市通信管理局10月29日通报41款侵权 APP，付临门、快钱、通联、杉德、电银、富友6家支付机构共17款应用在列（个人信息、投诉处理问题）。
+https://www.zfzj.cn/16260.html
+
+3. 发改委等5部门：推广电子结算、无感支付等数字化应用。
+https://www.mpaypass.com.cn/news/202610/30183959.html
+
+4. 人行江苏省分行：1-9月跨境移动支付交易同比增长42.6%。
+https://www.mpaypass.com.cn/news/202610/30183703.html
 
 【三、支付招标】（按截止日由近到远）
-1. 十堰市人民医院银医通智能化建设项目（结算支付），磋商采购。最高限价 135 万元；文件获取 11月2日–11月6日，开标日见公告。
-https://www.dingbiao.com/zhaobiao/b08cc7d18eb086ed341cab1be934edef.html
-2. 中国银行安徽省分行中银智慧付 MIS 收单项目（采购收银设备），竞争性磋商。招标方：中国银行安徽省分行；预算见公告；响应截止 11月9日 09:30。
-https://www.mpaypass.com.cn/news/202610/30131020.html
-3. 工行海南省分行特约商户专业化服务项目。POS 报价不超 15 元/月/台，二维码商户不超 6 元/月/户，服务 30 个月；投标截止 11月19日 09:30。
-https://www.mpaypass.com.cn/news/202610/30144552.html
-4. 湖南银行联合收单业务合作机构项目。入围 5 家、服务 3 年；最高限价：扫码 0.24%，借记卡 0.45%（封顶 19 元），贷记卡 0.55%；须持有效支付业务许可证且覆盖湖南；投标截止 11月23日 09:30。
-https://www.hunan-bank.com/96599/2026-10/30/article_2026103016470217205.shtml
-5. 南京农业大学财务聚合支付及虚拟校园卡系统建设：虚拟卡支付设备及管理平台升级。招标人：中国银行江苏省分行；预算见公告；投标截止 11月23日 14:00。
-https://www.ulilink.com/newDetailsView?id=88ca034d151810ec022872d7cca5744f63fb998e1ad09e3dede509d586266a99
-6. 首都机场上门收款及收单结算服务。招标方：中免集团（北京）免税品有限公司；预算见公告；服务期至 2033年2月；投标截止 11月24日 08:00。
-https://dzzb.ctg.cn/cms/cmszhaozhaobiaoysgg/7fa4ce19a19944cdb4605f02846cf27c.html
-7. 天津市第五中心医院智慧支付配套硬件系统。预算 70 万元；开标 12月9日 08:30。
-http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261029_27587164.htm
 
-中标/结果动态：
-• 邮储银行湖北省分行收单业务外包服务：第一中标陕西浦思信息科技 414.07 万元，第二中标安徽银卡信息科技 398.22 万元（10/28）
-https://m.mpaypass.com.cn/news/202610/28205339.html
-• 工行陕西省分行商户收单机具项目：入围 5 家（西安创为汇智、北京亚大通讯、广电运通、楚商数字、浙江保信），服务期 2 年（10/28）
-https://bid.10huan.com/2026/zb/1028/zb1793150147352328.html
-• 华夏银行常州分行收单业务聚合支付技术服务外包：邀请招标，3 家合作供应商（上海杉昊智能科技、考拉御风数字科技、武汉利楚商务服务）（10/30）
+1. 中国银行安徽省分行中银智慧付MIS收单项目（竞争性磋商，采购收银设备）
+招标方：中国银行安徽省分行｜预算：见公告｜响应截止/开标：2026-11-09 09:30
+https://www.mpaypass.com.cn/news/202610/30131020.html
+
+2. 中国工商银行海南省分行特约商户专业化服务项目
+招标方：工行海南省分行｜预算上限：有效POS 15元/月/台，二维码商户 6元/月/户，服务30个月｜投标截止：2026-11-19 09:30
+https://www.mpaypass.com.cn/news/202610/30144552.html
+
+3. 湖南银行联合收单业务合作机构项目（入围5家，服务三年）
+招标方：湖南银行｜最高限价：扫码0.24%，POS借记0.45%（封顶19元）、贷记0.55%｜投标截止/开标：2026-11-23 09:30
+https://www.mpaypass.com.cn/news/202610/31092352.html
+
+4. 建行徐州分行徐州地铁数字人民币应用改造信息化项目（供应商征集，非正式招标）
+招标方：建行徐州分行｜预算：见公告｜截止：见公告
+https://www.mpaypass.com.cn/news/202611/02095026.html
+
+中标动态：
+- 华夏银行常州分行收单业务聚合支付技术服务外包项目：采购结果公告，签约供应商为上海杉昊智能科技、考拉御风数字科技（上海）、武汉利楚商务服务。
 https://big5.hxb.com.cn/gate/big5/wap.hxb.com.cn/hxb/jrhx/hxxw/zbgg/cgjggs/czfx/2026103018201074427/index.shtml
+- 盛京银行鞍山分行商品房预售资金监管平台POS端口接入项目：第一中标候选人银联商务辽宁分公司，报价96000元（公示至11月2日）。
+https://m.yfbzb.com/winbid/detail/20261029_643160892.html
+- 上饶银行银联CUPS重建项目：中标候选人公示（赞同科技）。
+https://www.mpaypass.com.cn/news/202610/31154458.html
 
 免费订阅：hot.yqspay.com
