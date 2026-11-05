@@ -1,50 +1,44 @@
-2026-11-04
-每日早报 · 11月4日
+2026-11-05
+每日早报 · 11月5日
 
-【AI 工具快报】
-1. 美团 LongCat-2.5 发布（11/2）：1.6T 参数多模态、100万上下文，定位长程智能体编码，API 已开放，价格约输入$0.30/输出$1.20每百万token；可在 Claude Code、Codex、Cursor 里通过 Vercel AI Gateway 调用，写代码成本低。
-https://aitoolsrecap.com/Blog/ai-news-november-03-2026
+一、AI 工具快报
 
-2. Google Gemini 4 Carbon 发布：Artificial Analysis 指数59分，略超 Claude Opus 5.5，幻觉率最低；Gemini 4 Argon 已在 Snowflake 上正式可用。
-https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim
+1. Gemini 4 Carbon：谷歌新旗舰，Artificial Analysis 指数第一，略超 Claude Opus 5.5；首发定价 $2/$10 每百万 token，目前仅限网络安全防御方（Fairwind 计划）试用，暂无公开日期。https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim
 
-3. Flower Labs 发布 Endeavor 1.1：号称对标 OpenAI/Anthropic 的前沿模型，新增欧盟推理与多模态，适合有数据合规要求的场景。
-https://flower.ai/blog/2026-11-03-introducing-endeavor-1.1
+2. GPT-6.1 Terra：OpenAI 主打电脑操作的新模型，API 短上下文 $1/$5，适合做自动化获客流程。同时 Responses API 新增 12 小时提示缓存。https://gotburnout.io/en/news/ai-radar-gpt-6-1-terra-gemini-4-carbon-mistral-large-4-and-4829
 
-4. DeepSeek 新增「对话生成插件」构建器：用聊天直接做插件，做获客小工具可试。
-https://aipresso.com/archives/aipresso-20261103-31
+3. Mistral Large 4 开放权重：1T 参数、多模态，已上 OpenRouter 和 Hugging Face，编码和安全能力增强，可自托管。https://dailyaibrief.com/newsletters/ai-prog-weekly/2026-11-03-cursor-removes-a-malicious-claude-code-extension-github-makes-copilot-fusion-generally-available-and-more-ai-programming-weekly-75
 
-5. 通义 Qwen 4 临近发布：阿里云 CTO 称「下周」，尚未见权重和价格，预计含 27B 开源档，关注本周动向。
-https://shattered.io/qwen4-launch-alibaba-open-source-promise-doubt-470-models-2026
+4. Claude Duet：Anthropic 常驻云端 Agent 应用，美国地区候补名单预览（含 Pro 用户）。https://gotburnout.io/en/news/ai-radar-gpt-6-1-terra-gemini-4-carbon-mistral-large-4-and-4829
 
-6. 腾讯微信发布视觉语言模型 WeVisOne-VL：检测、OCR、分割一体，可用于图片素材处理。
-https://freellm.vip/news/tencent-wechat-releases-wevisone-vl-a-vision-language-foundation-model-unifying-object-level-and-pixel-level-perception
+5. 编程工具：Claude Code 2.1.317/2.1.318 发布（调用网络或 shell 工具发送账号邮箱前会先征求同意）；GitHub Copilot Fusion 正式可用；Cursor 下架了一个恶意 Claude Code 扩展，装扩展要留意。https://jls42.org/en/news/ia-actualites-03-nov-2026
 
-【支付行业动态】
-1. 人行下发《关于进一步加强无证经营支付业务整治工作的通知》：重点检查持证机构为无证机构提供支付清算服务，下月底前自查自纠，梳理合作主体和接口开放情况。
-https://www.yesdaily.com/xinwen_18607.html
+6. 降价与新模型：OpenRouter 上 GLM 5.3 一个月内降约 81% 至 $0.402；美团 LongCat-2.5（1.6T 参数，主打 Agent 编码）开放网站和 API。https://agentbreaking.com/pricing-monitor
 
-2. 前三季度36家持牌支付机构收罚单，罚没约3.41亿元，上海瀚银7445万居首，7家超千万。
-http://finance.bandao.cn/a/1793585809225554801.html
+二、支付行业
 
-3. 人行同意付临门重大变更：更名「上海富临门支付」，股东、实控人、高管变更；人保支付已于10/27注销；通联、快钱、杉德、富友等6家机构App被上海通管局通报。
-https://m.mpaypass.com.cn/news/202611/02093606.html
+行业动态
 
-4. 银联恢复华智融终端生产资质（此前暂停一个月）；多家银行上线数字人民币流水打印。
-https://www.zfzj.cn/kuaixun
+1. 人行下发《关于进一步加强无证经营支付业务整治工作的通知》，重点检查持证机构（银行、支付机构、银联等）为无证机构提供支付清算服务；下月底前自查自纠（据媒体转述消息人士，待官方文件核实）。https://www.yesdaily.com/xinwen_18607.html
 
-【支付招标】（按截止日由近到远）
-1. 厦门东免免税品收银POS设备采购项目 | 招标方：厦门东免免税品有限公司 | 预算：见公告 | 报价截止：11月5日 20:00 | https://dzzb.ctg.cn/cms/cmsfeicaigougg/1718926.html
+2. 前三季度 36 家持牌支付机构收罚单，罚没约 3.41 亿元，上海瀚银单笔 7445 万最高。https://finance.bandao.cn/a/1793585809225554801.html
 
-2. 杭州高级中学两校区POS消费系统运营服务项目（询价） | 招标方：浙江省杭州高级中学 | 预算：10万元 | 截止：11月10日 16:00 | https://www.shitangzhaobiao.com.cn/news-4bea6d69f8888da0d06ac2ca54927d8d/
+3. 上海通信管理局通报 41 款 App，付临门、快钱、通联、杉德、电银、富友 6 家支付机构涉 17 款。https://finance.sina.com.cn/roll/2026-11-03/doc-inixmxcw6657254.shtml
 
-3. 支付系统7×24小时值守服务（二次） | 招标方：中国人民银行贵州省分行 | 预算：98万元 | 开标：11月13日 13:00 | http://www.ccgp.gov.cn/cggg/zygg/jzxcs/202611/t20261102_27603818.htm
+4. 10月30日人行批准付临门变更：更名上海富临门支付，实控人变更为金向华。https://www.mpaypass.com.cn/news/202611/02093606.html
 
-4. 南通农商银行2027年收单业务外包项目 | 招标方：江苏南通农村商业银行 | 预算：100万元/年（需收单外包备案） | 文件获取至11月20日16时，开标见公告 | http://www.ntrcb.com/ntzd/gywm/gywmbhgg/1010849.html
+支付招标（按截止日由近到远）
 
-5. 翼城县医疗集团智慧收费体系建设（医保刷脸机、医保统一支付、MIPOS对接） | 招标方：农行临汾分行 | 预算：见公告 | 开标：11月25日 09:00 | https://www.bangongzhaobiao.com/news-b38ab1d55a9123987afa5b5a06cd5255/
+1. 深圳会展中心2026-2028年度停车场线上支付服务采购｜招标方：深圳会展中心｜预算：控制费率0.6%｜开标：11月13日15:30｜https://www.szcec.com/szcec/cn-info/purchase/20261103/db665cd5-c9c0-41a8-8c85-28539132ea53.html
 
-中标动态：建行上海分行一体化收银支付终端采购，竞争性磋商已出结果，数量6000台。
-https://www.dingbiao.com/zhaobiao/b0cf11e3e844254e26f9b91aa4fc36bd.html
+2. 南通农商银行2027年收单业务外包项目｜招标方：江苏南通农商银行｜预算：100万元/年｜投标截止：11月23日9:30｜要求收单外包备案｜http://www.ntrcb.com/ntzd/gywm/gywmbhgg/1010849.html
+
+3. 北京银行零售客群三方支付渠道积分抵现权益采购｜招标方：北京银行｜预算：280万元｜开标：11月25日13:30｜https://www.mpaypass.com.cn/news/202611/04174907.html
+
+4. 兴业银行福州分行2027-2028年度零售合作收单采购｜招标方：兴业银行福州分行｜预估规模410万元，最高费率0.28%｜文件获取至11月10日，开标日见公告｜https://www.mpaypass.com.cn/news/202611/04175538.html
+
+5. 蒙商银行锡林郭勒分行联合收单合作机构招采（竞争性磋商）｜招标方：蒙商银行锡林郭勒分行｜业务合作不涉费用，入围3家｜截止日见公告｜https://www.mpaypass.com.cn/news/202611/04185252.html
+
+中标动态：浦发银行南京分行烟草零售终端聚合支付（双屏机）项目，中选南京会顶信息科技，金额308.1万元。https://www.mpaypass.com.cn/news/202611/04175200.html
 
 免费订阅：hot.yqspay.com
