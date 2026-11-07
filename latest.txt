@@ -1,44 +1,61 @@
-2026-11-05
-每日早报 · 11月5日
+2026-11-07
+每日早报 · 11月7日（周六）
 
-一、AI 工具快报
+【一、AI 工具快报】
 
-1. Gemini 4 Carbon：谷歌新旗舰，Artificial Analysis 指数第一，略超 Claude Opus 5.5；首发定价 $2/$10 每百万 token，目前仅限网络安全防御方（Fairwind 计划）试用，暂无公开日期。https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim
+1. Kimi K3.1 Pro 开放权重：2.8T 参数（激活 104B）、1M 上下文、支持图像输入，Agent Arena 开源模型第一；vLLM/SGLang 首日支持，Ollama Cloud 等可直接调用。对你：做 agent/获客自动化可多一个强力开源选项，许可证对商用较宽松。
+https://aiskills.team/en/blog/ai-digest-2026-11-06
 
-2. GPT-6.1 Terra：OpenAI 主打电脑操作的新模型，API 短上下文 $1/$5，适合做自动化获客流程。同时 Responses API 新增 12 小时提示缓存。https://gotburnout.io/en/news/ai-radar-gpt-6-1-terra-gemini-4-carbon-mistral-large-4-and-4829
+2. Claude Code（v2.1.316 及以上）：后台子智能体的状态更新改由 Haiku 5.5 生成，单次成本约降 99%，额度消耗约少 5%、多约 6% 的提示数。对你：升级即省额度，免费。
+https://x.com/ClaudeDevs/status/2118063143167693011
 
-3. Mistral Large 4 开放权重：1T 参数、多模态，已上 OpenRouter 和 Hugging Face，编码和安全能力增强，可自托管。https://dailyaibrief.com/newsletters/ai-prog-weekly/2026-11-03-cursor-removes-a-malicious-claude-code-extension-github-makes-copilot-fusion-generally-available-and-more-ai-programming-weekly-75
+3. Cognition SWE-2 Flash：编码模型，价格为 SWE-2 的 20%、速度约 3 倍，11月内对 Devin Pro/Max/Teams 免费（权重不公开）。对你：有 Devin 订阅可免费试。
+https://x.com/cognition/status/2118069614521241739
 
-4. Claude Duet：Anthropic 常驻云端 Agent 应用，美国地区候补名单预览（含 Pro 用户）。https://gotburnout.io/en/news/ai-radar-gpt-6-1-terra-gemini-4-carbon-mistral-large-4-and-4829
+4. ChatGPT Images 2.6：新增 GIF、SVG 导出，API 有 Flare（约 6 秒出图）和 Sunburst（质量更高）两个模型。对你：营销素材、Logo、表情动图可一步生成。
+https://x.com/OpenAI/status/2118124964197114039
 
-5. 编程工具：Claude Code 2.1.317/2.1.318 发布（调用网络或 shell 工具发送账号邮箱前会先征求同意）；GitHub Copilot Fusion 正式可用；Cursor 下架了一个恶意 Claude Code 扩展，装扩展要留意。https://jls42.org/en/news/ia-actualites-03-nov-2026
+5. GPT-Live 外呼（SIP）正式可用，支持按键拨号（DTMF）。对你：可做电话回访/获客外呼的 AI 语音 agent。
+https://x.com/juberti/status/2118101340186698028
 
-6. 降价与新模型：OpenRouter 上 GLM 5.3 一个月内降约 81% 至 $0.402；美团 LongCat-2.5（1.6T 参数，主打 Agent 编码）开放网站和 API。https://agentbreaking.com/pricing-monitor
+6. Ripple-65B Preview：Apache 2.0 的 65B 稠密模型，Terminal-Bench 2.1 得分 80.5%。对你：可商用的自部署编码模型，建议先用自己的任务实测。
+https://x.com/RicursiveAI/status/2118046765857546733
 
-二、支付行业
+（今日未核实到公开邀请码/内测名额。）
 
-行业动态
+【二、支付行业动态】
 
-1. 人行下发《关于进一步加强无证经营支付业务整治工作的通知》，重点检查持证机构（银行、支付机构、银联等）为无证机构提供支付清算服务；下月底前自查自纠（据媒体转述消息人士，待官方文件核实）。https://www.yesdaily.com/xinwen_18607.html
+1. 海科融通河南分公司被人行河南省分行警告并罚款 40 万元（另没收违法所得 7503.4 元），涉违反特约商户管理、清算管理规定；该公司年内至少第三次被罚，累计近 600 万元。
+https://stock.10jqka.com.cn/20261106/c681570674.shtml
 
-2. 前三季度 36 家持牌支付机构收罚单，罚没约 3.41 亿元，上海瀚银单笔 7445 万最高。https://finance.bandao.cn/a/1793585809225554801.html
+2. 重庆鲲鹏支付商户结算延迟，11月4日公告致歉，承认清算调度、出款链路、风控环节不足；人行重庆市分行已设信访接待点。其牌照有效期至 2026年12月21日，今年3月曾被罚 914.35 万元。
+https://feng.ifeng.com/c/8xppqW0bobf
 
-3. 上海通信管理局通报 41 款 App，付临门、快钱、通联、杉德、电银、富友 6 家支付机构涉 17 款。https://finance.sina.com.cn/roll/2026-11-03/doc-inixmxcw6657254.shtml
+3. 据 21世纪经济报道引述消息，人行下发《关于进一步加强无证经营支付业务整治工作的通知》，重点检查持证机构为无证机构提供支付清算服务的行为，下月底前完成自查自纠（媒体转述，未见人行原文）。
+https://www.yesdaily.com/xinwen_18607.html
 
-4. 10月30日人行批准付临门变更：更名上海富临门支付，实控人变更为金向华。https://www.mpaypass.com.cn/news/202611/02093606.html
+4. 国务院金融工作报告（人行行长潘功胜作报告）涉及跨境支付、AI、反洗钱等内容。
+https://www.mpaypass.com.cn/news/202611/06105333.html
 
-支付招标（按截止日由近到远）
+【三、支付招标】（按截止日由近到远）
 
-1. 深圳会展中心2026-2028年度停车场线上支付服务采购｜招标方：深圳会展中心｜预算：控制费率0.6%｜开标：11月13日15:30｜https://www.szcec.com/szcec/cn-info/purchase/20261103/db665cd5-c9c0-41a8-8c85-28539132ea53.html
+1. 广州农商银行 2026年直联POS收单外包服务项目
+招标方：广州农村商业银行；最高限价 972 万元（2年总价），拟定 3 家中标；报名截止 11月12日 24:00，开标 12月3日 9:00；需有收单外包机构备案。
+https://www.mpaypass.com.cn/news/202611/06152519.html
 
-2. 南通农商银行2027年收单业务外包项目｜招标方：江苏南通农商银行｜预算：100万元/年｜投标截止：11月23日9:30｜要求收单外包备案｜http://www.ntrcb.com/ntzd/gywm/gywmbhgg/1010849.html
+2. 兴业银行泉州分行企金合作收单营销采购项目
+招标方：兴业银行泉州分行（代理：福建省天海招标）；预算见招标文件；报名截止 11月13日，开标 11月30日 9:30。
+https://www.mpaypass.com.cn/news/202611/06195751.html
 
-3. 北京银行零售客群三方支付渠道积分抵现权益采购｜招标方：北京银行｜预算：280万元｜开标：11月25日13:30｜https://www.mpaypass.com.cn/news/202611/04174907.html
+3. 长沙农商银行收单业务辅助巡检外包服务（交流公告，非正式招标）
+招标方：长沙农商银行零售金融部；预算未公布；报名截止 11月18日 17:00；需收单外包备案并在长沙有场所。
+https://www.mpaypass.com.cn/news/202611/06152730.html
 
-4. 兴业银行福州分行2027-2028年度零售合作收单采购｜招标方：兴业银行福州分行｜预估规模410万元，最高费率0.28%｜文件获取至11月10日，开标日见公告｜https://www.mpaypass.com.cn/news/202611/04175538.html
+中标/成交动态：
+4. 建设银行雄安分行收银设备采购项目 中标候选人公示：第一候选人河北厚源电子科技，报价 169.37 万元（含税）；公示期至 11月8日。
+https://www.mpaypass.com.cn/news/202611/06151202.html
 
-5. 蒙商银行锡林郭勒分行联合收单合作机构招采（竞争性磋商）｜招标方：蒙商银行锡林郭勒分行｜业务合作不涉费用，入围3家｜截止日见公告｜https://www.mpaypass.com.cn/news/202611/04185252.html
-
-中标动态：浦发银行南京分行烟草零售终端聚合支付（双屏机）项目，中选南京会顶信息科技，金额308.1万元。https://www.mpaypass.com.cn/news/202611/04175200.html
+5. 青岛银行银医便捷支付结算终端项目 成交公告：青岛大道网络科技，22.748 万元（含税），终端 44 台；公示期 11月7日至9日。
+https://www.mpaypass.com.cn/news/202611/06195350.html
 
 免费订阅：hot.yqspay.com
