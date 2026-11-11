@@ -1,67 +1,66 @@
-2026-11-10
-每日早报 · 11月10日
+2026-11-11
+每日早报 · 11月11日
 
 【一、AI 工具快报】
 
-1. Claude Fable 5.2 / Mythos 5.2 发布（11/9）：Fable 5.2 输入 $8、输出 $40 每百万 token，比 5.1 降价 20%，1M 上下文；Claude Code v2.1.321 已默认切到它，付费计划送 1-3 次 Fable 额度重置。Mythos 5.2 仅限网络安全认证企业。对你：写代码用更强更便宜，但速度和单任务成本偏高，轻任务可用 /model claude-fable-5-1 切回。
-https://www.anthropic.com/claude-fable-and-mythos-5-2
+1. Gemini 4 Carbon 正式开放（11/10）：付费 API、AI Studio、Antigravity 可用；API 价 $2/$10 每百万token，限时到11月30日，之后 $4/$20。Antigravity 预览多智能体“swarm”。适合拿来做长链路编程代理。
+https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/
 
-2. Meta Muse Ember 上线（11/9）：API 价 $0.10 输入 / $0.50 输出每百万 token，1M 上下文，智能指数与 Claude Haiku 5.5 持平，单任务成本约三分之一。对你：适合跑批量、工具调用、客服/获客类自动化。
-https://venturebeat.com/technology/metas-proprietary-muse-ember-nearly-matches-claude-haiku-5-5-at-1-3-the-estimated-per-task-cost
+2. Claude Fable 5.2 / Mythos 5.2（11/9）：Anthropic 新模型，编程、推理更强，比 5.1 快约30%，$8/$40 每百万token，比上代便宜；Mythos 面向安全领域，需验证。
+https://www.gadgets360.com/ai/news/claude-fable-mythos-5-2-launch-price-availability-capabilities-12306699
 
-3. OpenAI 收购 Astral（uv、Ruff 作者团队），并入 Codex。对你：Python 工具链会更深绑定 Codex，CI 里用 uv/Ruff 的注意后续许可变化。
-https://openai.com/index/openai-to-acquire-astral
+3. Meta Muse Ember（11/9）：最小最省的 Muse 模型，$0.10/百万输入token，100万上下文，适合工具调用、批量低成本任务。
+https://www.zeebiz.com/technology/news-meta-launches-muse-ember-ai-model-at-lower-cost-how-it-challenges-openais-gpt-6-luna-and-anthropics-claude-haiku-55-405351
 
-4. 安全提醒：10/29 Cursor 扩展市场上有约 11 小时的被篡改 Claude Code 扩展（2.1.312 / 2.1.313，macOS、Windows），会写入 SSH 公钥并建反向隧道，卸载不会清除。对你：如在 Cursor 装过，请升级到 2.1.314 并检查 authorized_keys 里有无 svc-telemetry。
-http://www.stepsecurity.io/blog/claude-code-extension-trojanized
+4. OpenAI：dot 智能体可连接多台本地电脑并指定执行机器；ChatGPT 上线商家档案与客服智能体。
+https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884
 
-5. Claude Code v2.1.321 修复 MCP 服务器经重定向窃取 OAuth 令牌、只读 Bash 命令绕过沙箱的漏洞。对你：用第三方 MCP 的请尽快升级。
-https://claude-news.today/en/briefings/briefing-2026-11-10/
+5. Anthropic 把 Claude 做成工作区：插件、表格、白板，会议纪要即将上线。
+https://lmmarketcap.com/llm-updates
 
-6. 腾讯 Hy4 完整版发布（11/4）：支持图像理解与电脑操作（命令行+图形界面），权重和系统卡将陆续公开。对你：国产可自部署的 computer-use 选项，可关注。
-https://technode.global/2026/11/09/tencent-hy4-visual-computer-use/
+6. OpenRouter 已上架 google/gemini-4-carbon，价格同官方。
+https://cellcog.ai/blog/gemini-4-carbon/
 
-【二、支付行业】
+邀请码/内测：今日未发现公开可用的。
 
-（一）行业动态
+【二、支付行业动态】
 
-1. 鲲鹏支付结算延迟：10/27 起大批 POS 商户款项未到账，11/4 公司致歉并称系自身清算、出款和风控环节不足；人行重庆市分行设信访接待点；公司称力争 11/9 起有序结算，总经理 11/2 离任。对你：做收单获客时可留意商户迁移机会，也要提醒合规风险。
-https://finance.jrj.com.cn/2026/11/09142659067956.shtml
+1. 鲲鹏支付结算延迟：11/4 承认清算、出款管理不足，11/9 起有序结算；牌照12/21到期，商户已到人行重庆分行维权。
+https://finance.china.com/jinrong/13004689/20261110/49856010.html
 
-2. 海科融通河南分公司因违反特约商户管理、清算管理规定，被人行河南省分行罚款 40 万元并没收违法所得 7503.4 元，为其年内第三张罚单；其牌照有效期至 2026-12-21，正处续展窗口。
-https://www.mpaypass.com.cn/news/202611/09094805.html
-
-3. 据媒体引述人行消息人士：人行下发《关于进一步加强无证经营支付业务整治工作的通知》，重点检查持证机构为无证机构提供支付清算服务的行为，持证机构需在下月底前完成自查自纠（媒体转述，非官方原文）。
+2. 人行下发《关于进一步加强无证经营支付业务整治工作的通知》：重点检查持证机构为无证机构提供支付清算服务，下月底前自查自纠。
 https://www.yesdaily.com/xinwen_18607.html
 
-4. 互金协会答疑：支付页面不得展示客户未预先开通的金融产品，也不得诱导开通；金融产品与支付工具须显著区隔。《金融产品网络营销管理办法》9/30 起施行。
-https://www.mpaypass.com.cn/news/202611/10090744.html
+3. 海科融通河南分公司被罚40万元并没收7503.4元（违反特约商户、清算管理规定），今年第三张罚单；牌照12/21到期。
+https://www.mpaypass.com.cn/news/202611/09094805.html
 
-（二）支付招标（按截止/开标时间由近到远）
+4. 外汇局征求意见：支付机构外汇业务拓展到市场采购贸易、外贸综合服务等新业态，反馈截止12/1。
+https://www.tmtpost.com/8197883.html
 
-1. 呼和浩特公交公司：盛乐国际机场停车楼支付通道服务竞价。最高限价为收入 0.6% 交易扣率，服务期 3 年。竞价会议 11/10 15:00（今天）。
-https://www.luqiaozhaobiao.com/news-e1fcceb51f9a07c3f10b39c56115cffb/
+【三、支付招标】（按截止日由近到远）
 
-2. 湖南湘邮科技：2026-2028 年收单业务供应商入围项目。预算见公告。招标文件获取截至 11/11 17:00，投标截止及开标 11/23 10:00。
-https://www.ztbcgw.cn/class1/254459.html
+1. 邮政河南分公司“微邮付”平台服务项目（采前公示）｜中国邮政河南省分公司｜预算见公告｜公示期至11/14｜
+https://www.chinapost.com.cn/cn/report/2611/2258-1.htm
 
-3. 广州农商银行：2026 年直联 POS 收单外包服务项目。限价 972 万元（两年），定 3 家。报名截止 11/12 24:00。
-https://www.grcbank.com/grcbank/gywx/cggg/2026110517345352530/index.shtml
-
-4. 中国邮政贵州省分公司：2027-2028 年商户结算业务合作项目（包1）。预算合计 1.6 亿元（两年），费率限价 2.395‰。报名截止 11/13 17:00，响应文件递交 11/27 10:00。
-https://guizhou.chinapost.com.cn/cn/report/2611/1814-1.htm
-
-5. 建行江苏省分行：商户收单用扫码终端采购项目市场调研。预算见公告。调研报名截止 11/14 17:00。
-https://www.mpaypass.com.cn/news/202611/09182224.html
-
-6. 江南农村商业银行：收单码牌采购项目选型公告。预算见公告。资料提交截止 11/15。
+2. 江南农商行收单码牌采购项目选型公告｜江南农村商业银行｜预算见公告｜报名截止11/15｜
 https://www.mpaypass.com.cn/news/202611/09205607.html
 
-中标动态：
-7. 工商银行黑龙江省分行：第三方支付营销技术支持项目，中标候选人公示至 11/12 16:00。
-https://www.mpaypass.com.cn/news/202611/09163353.html
+3. 深圳会展中心2026-2028年度停车场线上支付服务采购（变更公告）｜深圳会展中心｜预算见公告｜投标截止及开标11/23 09:30｜
+http://www.szcec.com/szcec/cn-info/purchase/20261110/24b24ad2-2bed-4d9d-af0e-3b7a595550d0.html
 
-8. 中国银行安徽省分行：中银智慧付 MIS 收单项目，成交候选人公示（11/9 发布）。
+4. 邮政贵州分公司2027-2028年商户结算业务合作项目（包2，含聚合支付、收单码牌）｜中国邮政贵州省分公司｜按费率结算，聚合渠道费率不高于0.105‰｜11/27 10:00｜
+https://www.chinapost.com.cn/cn/report/2611/2424-1.htm
+
+5. 邮政河北分公司2026-2028年生态金融行业场景服务商采购（二次，商超/校园/零售三标段）｜中国邮政河北省分公司｜预算、截止见公告｜
+https://www.chinapost.com.cn/cn/report/2611/2042-1.htm
+
+6. 建行江苏省分行商户收单用扫码终端采购项目市场调研公告｜建设银行江苏省分行｜详见公告｜
+https://www.mpaypass.com.cn/news/202611/09182224.html
+
+中标/结果动态：
+华夏银行福州分行收单外包（聚合支付技术服务）结果：武汉利楚商务、深圳银享惠科技成交。
+https://www.yfbzb.com/winbid/detail/20261109_646134238.html
+中国银行安徽省分行中银智慧付MIS收单项目成交候选人公示（11/9）。
 https://jkv2.ahtba.org.cn/site/trade/affiche/detail/c19805e3-dc14-11f1-b7f6-00163e1f3e9b
 
 免费订阅：hot.yqspay.com
