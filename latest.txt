@@ -1,61 +1,64 @@
-2026-11-12
-每日早报 · 11月12日
+2026-11-13
+每日早报 · 11月13日（周五）
 
 【一、AI 工具快报】
 
-1. Gemini 4 Carbon 正式开放：谷歌最强模型，付费 API 首发价每百万 token 输入 2 美元/输出 10 美元，11月30日后涨到 4/20 美元；编码、Agent 任务强，想试就趁价格低。另有 Respan 平台限时免费调用（约太平洋时间11月12日14:00 截止，无需绑卡）。
-https://china.googleblog.com/2026/11/gemini-4-carbon.html
-https://www.aipromonow.com/en/promos/respan-gemini-4-carbon-free-api
+1. Gemini 4 Hydrogen 发布（11/12）：谷歌新的快速低价模型，API 输入 $1.5 / 输出 $7.5 每百万 token，100 万上下文，Gemini 应用/AI Studio 免费档也能用，OpenRouter 已上架。适合拿来跑编程 Agent 和批量任务省成本。
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
 
-2. Claude Fable 5.2 发布：Anthropic 新旗舰，输出快约30%，API 降价20%至 8/40 美元；付费用户本周有额度重置，Claude Code 可用。日常编码官方仍建议用更便宜的 Opus 5.5。
-https://www.techbang.com/posts/134814-anthropic-claude-fable-mythos-5-2-speed-price-cut
+2. Gemini Decisions API（11/12）：一次给素材（文字/图/音频/PDF）并附最多 1000 个判断题，返回概率；输入 $0.10/百万 token、输出不收费，免费档可用。做线索打分、内容分类、客服分流很合适。
+https://www.zhidx.com/p/609608.html
 
-3. 提醒：据报道 Anthropic 新政策11月12日起限制中国地区访问 Claude（含 Claude Code、API），单一来源，请自行确认并备好替代模型。
-https://ai-daily.cn/
+3. 阿里 Qwen4-Max 预览版（11/11 上线）：100 万上下文，百炼 Token Plan 新用户最低 19.5 元/月，预览期到 11/25；Qwen Code 1.0 同步开源，11/24 前用 Qoder 账号登录可领 Qwen4 免费额度（仅限编程/智能体工具内交互使用）。
+https://www.aitoollab.cn/articles/qwen4-max-preview-official-2026/
 
-4. 阿里 Qwen4-Max 预览版上线：编程和 Agent 能力升级，Token Plan 限时2折，新用户叠加最低1折，国内可直接用，适合做低成本编码备选。
-https://original.ifeng.com/c/8xxhbHrtxII
+4. Cursor 将失去 OpenAI 模型：据第三方整理，OpenAI 提议 11/12 起切断 Cursor 内的 GPT 访问，双方尚无官方更新；Cursor 现在 Claude/GPT/Gemini 按 API 原价计费。用 GPT 的话建议先备好 Claude Code/Codex 备选。
+https://aitooltier.com/tools/cursor
 
-5. Meta Muse Ember：每百万输入 0.1/输出 0.5 美元，100万上下文，单任务成本约 Haiku 5.5 的三分之一；批量跑营销文案、客服类碎活很划算。
-https://www.aitntnews.com/newDetail.html?newId=31155
+5. Anthropic 新增 Claude Whiteboards、Sheets（测试版），Dashboards 正式更名 Claude Data；付费用户另有一次完整用量重置。
+https://aibriefs.news/ai-news-today
 
-6. 双11 大模型 Token 集体5折：MiniMax 月卡5折、阿里云 Token Plan 5折起、智谱周卡5折起、Qoder 月卡低至19.9元。
-https://36kr.com/newsflashes/4064885541753728
+6. Croli 多 Agent 工作区免费开放注册（Early Access）：统一管理 Claude Code、Codex、DeepSeek 等编程 Agent，可免费试用。
+https://www.80aj.com/2026/11/12/croli-agent-workspace-free/
 
 【二、支付行业动态】
 
-1. 鲲鹏支付结算延迟持续：商户 POS 交易扣款成功但资金超一周未到账，公司称11月9日起有序结算；其牌照12月21日到期，3月刚被罚914万元。
-https://finance.china.com/jinrong/13004689/20261110/49856010.html
-
-2. 人行下发《关于进一步加强无证经营支付业务整治工作的通知》（据21世纪经济报道引述消息），以持证机构为重点，检查为无证机构提供支付清算服务的行为，下月底前自查自纠。做聚合/二清合作的要留意。
+1. 人民银行下发《关于进一步加强无证经营支付业务整治工作的通知》：重点检查银行和支付机构违规为无证机构提供支付清算服务，持牌机构需在下月底前完成自查自纠，梳理合作主体和接口开放情况（据21世纪经济报道，媒体转述）。
 https://www.yesdaily.com/xinwen_18607.html
 
-3. 度小满支付获准更名「北京满易支付有限公司」，并变更监事、财务负责人（人行北京市分行公示，11月11日）。
-https://www.zfzj.cn/kuaixun
+2. 鲲鹏支付（原钱宝）结算延迟：商户POS显示成功但资金未到账，公司11/4承认延迟，称11/9起结算真实合法交易，监管工作组逐笔核查；该公司3月刚被罚914万元。
+https://www.chinafintech.com/2026/11/11/deep-dive-payment-settlement-supervision/
 
-4. 商联信支付新增被执行信息，标的5831.12万元（11月10日立案）。
-https://www.zfzj.cn/kuaixun
+3. 青海西宁农商行被人行青海省分行罚款116.5万元，涉及支付结算、金融统计、反洗钱等规定（11/12 公示）。
+https://finance.sina.com.cn/jryx/fd/2026-11-12/doc-iniynyav1600914.shtml
 
-【三、支付招标】（按截止日由近到远）
+4. 建设银行11月内第三张央行罚单：浙江省分行因违反金融统计规定被罚73.33万元；此前河南省分行9项违规被罚403.18万元（含收单相关的账户、客户尽职调查等）。
+https://www.mbcaijing.com/article/W8Fwi3rgzKA%3D
 
-1. 广元市新型智慧城市建设项目（一批次）统一支付系统收单机构采购服务项目（邀请公告）
-招标方：见公告｜预算：见公告｜截止：2026-11-13
+【三、支付招标（按截止日由近到远）】
+
+1. 广元市新型智慧城市建设项目（一批次）统一支付系统收单机构采购服务项目｜招标方：广元市｜预算：见公告｜截止：11月13日（今天）｜邀请公告
 https://m.scbid.com/bx/detail/4712601721_12793637.html
 
-2. 深圳会展中心2026-2028年度停车场线上支付服务采购项目（变更公告）
-招标方：深圳会展中心管理有限责任公司｜预算：见公告｜开标：延期至2026-11-23 09:30
+2. 深圳会展中心2026-2028年度停车场线上支付服务采购项目（变更公告）｜招标方：深圳会展中心｜预算：见公告｜投标截止/开标：11月23日 09:30（已延期）
 http://www.szcec.com/szcec/cn-info/purchase/20261110/24b24ad2-2bed-4d9d-af0e-3b7a595550d0.html
 
-3. 中国邮政贵州省分公司2027-2028年商户结算业务合作项目（包2，直接采购谈判，含聚合支付+扫码收单）
-招标方：中国邮政集团贵州省分公司｜预算：按费率结算（聚合平台不高于0.105‰，其他支付机构不高于2.395‰）｜递交/谈判：2026-11-27 10:00
+3. 上海银行商业综合体收单管理系统建设项目（磋商）｜招标方：上海银行｜最高限价：275.02万元｜递交截止/开启：11月24日 14:00
+https://www.mpaypass.com.cn/news/202611/12160233.html
+
+4. 深农聚合交易支付系统（三期）项目开发服务（邀请，单一来源）｜招标方：深农集团｜控制价：811.2万元｜截止：11月26日 14:30
+https://m.yfbzb.com/inviteBid/detail/20261111_646916354.html
+
+5. 邮政集团贵州省分公司2027-2028年商户结算业务合作项目（包2，直接采购谈判）｜招标方：中国邮政贵州省分公司｜预算：按费率结算（第三方机构费率不高于2.395‰）｜递交/谈判：11月27日 10:00
 https://www.chinapost.com.cn/cn/report/2611/2424-1.htm
 
-4. 西安银行收单业务外包服务项目
-招标方：西安银行股份有限公司｜预算：见公告｜投标/开标：2026-12-02 09:30（文件获取至11-18）
+6. 西安银行收单业务外包服务项目（公开招标）｜招标方：西安银行｜预算：见公告｜投标/开标：12月2日 09:30
 https://www.mpaypass.com.cn/news/202611/11180024.html
 
-5. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购项目
-招标方：中国邮政储蓄银行江苏省分行｜预算：1015万元｜投标：2026-12-04 09:30（文件获取至11-19）
+7. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购项目（公开招标）｜招标方：邮储银行江苏省分行｜预算：1015万元｜投标截止：12月4日 09:30
 https://www.chinapost.com.cn/cn/report/2611/3152-1.htm
+
+中标动态：河南农商银行收单业务商户收款软硬件采购项目，中标候选人公示（11/12）
+https://www.mpaypass.com.cn/news/202611/12182339.html
 
 免费订阅：hot.yqspay.com
