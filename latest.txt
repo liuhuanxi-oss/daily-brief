@@ -1,73 +1,67 @@
-2026-11-14
-每日早报 · 11月14日（周六）
+2026-11-15
+每日早报 · 11月15日（周日）
 
-【一、AI 工具快报】
+一、AI 工具快报
 
-1. Gemini Decision 1 发布：谷歌的"决策模型"，不写文字，只从固定选项里选答案，150-250毫秒，输入$0.10/百万token，输出免费。适合给线索分级、工单/评论分类，成本几乎为零。
-https://x.com/sundarpichai/status/2120581155078729728
+1. Google 发布 Gemini 4 Hydrogen：主打编程和智能体的快速模型，100万上下文，API 输入 $1.5 / 输出 $7.5 每百万 token，已进 Gemini API、AI Studio，Gemini app 免费用户也能用。适合拿来跑代码、批量任务。
+https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch
 
-2. Meta Muse Ember：跑一次智能体任务约$0.02，Vals 测得约为 Claude Fable 5.2 效果的85%，成本仅0.84%。简单重复的自动化可先试它。
-https://x.com/arena/status/2120609164116533606
+2. Anthropic 发布 Claude Fable 5.2 / Mythos 5.2：价格降到输入 $8 / 输出 $40 每百万 token，注意 thinking block 复用和 computer use 工具有不兼容改动，升级前先看文档。
+https://tedfactory.com/en/news/ai-news/20261114-ai-brief/
 
-3. 百度 ERNIE 5.5 Flash 预览：280B 总参数/14B 激活，100万上下文，承诺11月25日前以 Apache 2.0 开源权重。可作长上下文编程候选。
-https://x.com/arena/status/2120685092909838405
+3. OpenAI GPT-6 Sol / Luna：Codex 和 ChatGPT Work 付费用户可用，免费和 Go 用户在桌面端可用 Luna，API 为 gpt-6-sol、gpt-6-luna。
+https://openai.com/index/introducing-gpt-6-sol-and-luna
 
-4. Gemini 托管智能体支持自建沙箱：Google AI Studio 的 Managed Agents 现可跑在自托管沙箱里，做内部工具更可控。
-https://x.com/GoogleAIStudio/status/2120610219235660183
+4. DeepSeek 向开发者开放 app 功能：deepseek-flash 对话 API 可直接开联网搜索、读网页、解析文件，另有独立的搜索、OCR、语音接口。做获客素材抓取可用。
+https://fav0.com/en/2026-11-14/
 
-5. 省钱思路：Cloudflare 用"快速决策模型选工具+大模型只做诊断"，把6次调用降到1次、约4万token降到1.8K。
-https://x.com/TheTuringPost/status/2120581560781144293
+5. Meta 推出 Muse Ember：最小最便宜的模型，面向工具调用、改小段代码、分类、抽取等重复任务，适合低成本跑自动化。
+https://tech.yahoo.com/ai/meta-ai/articles/meta-launches-muse-ember-cheaper-055234744.html
 
-来源汇总：https://aiskills.team/en/blog/ai-digest-2026-11-13
+6. 百度文心 5.5 Flash Preview：2800亿参数，主攻编程，已上千帆平台，权重计划11月25日前开源。
+https://doitnews.cn/c/ai
 
-【二、支付行业动态】
+二、支付行业动态
 
-1. 度小满支付获央行批准更名为"北京满易支付有限公司"，同时变更监事和财务负责人。
-https://www.mpaypass.com.cn/news/202611/12123814.html
-
-2. 西宁农商银行因违反支付结算、金融科技、反洗钱等规定，被人行青海省分行警告并罚款116.5万元。
+1. 西宁农商银行因违反支付结算、金融科技等规定，被人行青海省分行警告并罚款116.5万元。
 https://www.mpaypass.com.cn/news/202611/13100724.html
 
-3. 重庆鲲鹏支付"大面积交易未到账"事件有进展：人行重庆分行工作组进驻核查，部分真商资金已到账，警方已对负责人以涉嫌职务侵占立案。
+2. 度小满支付获批更名为「满易支付」，同时变更监事和财务负责人。
+https://www.mpaypass.com.cn/news/202611/12123814.html
+
+3. 鲲鹏支付大面积交易未到账：重庆警方已立案，人行重庆分行工作组进驻核查，部分真商资金陆续到账。
 http://www.eeo.com.cn/2026/1113/1092567.shtml
 
-4. 人行下发通知，要求持证机构全面自查为无证经营支付业务机构提供支付清算服务的行为（转引21世纪经济报道，二手消息，建议留意原文）。
-https://www.yesdaily.com/xinwen_18607.html
+4. 人行公示2025年度金融科技发展奖，分布式支付清算系统建设工程获一等奖，支付宝、银联等获二等奖。
+https://m.mpaypass.com.cn/news/202611/13092938.html
 
-【三、支付招标】（按截止日由近到远）
+三、支付招标（按截止日由近到远）
 
-1. 武夷山市武夷度假村酒店收费系统收单支付接口项目（单一来源采前公示）
-招标方：武夷山市武夷度假村有限公司 | 预算：见公告 | 公示截止：11月17日 18:00
-https://www.qianlima.com/bid-647291812.html
+1. 国内渠道国际卡支付服务采购项目（中选公示）
+招标方：中国国际航空；中选候选人：易宝支付；公示至11月16日 09:00
+https://pur.airchina.com.cn/001/001003/20261113/30902da0-9f48-412f-8305-913126afc01f.html
 
-2. 上海银行商业综合体收单管理系统建设项目（竞争性磋商）
-招标方：上海银行 | 最高限价：275.02万元 | 文件发售截至：11月19日
+2. 长沙银行医疗机构银联缴费结算服务项目（单一来源公示）
+招标方：长沙银行；预算见公告；公示至11月18日
+https://www.qianlima.com/bid-647062958.html
+
+3. 上海银行商业综合体收单管理系统建设项目（竞争性磋商）
+招标方：上海银行；最高限价275.02万元；文件发售至11月19日
 https://www.mpaypass.com.cn/news/202611/12160233.html
 
-3. 四川银行跨境业务系统采购项目（竞争性磋商）
-招标方：四川银行 | 预算：见公告 | 文件获取截至：11月19日
-https://m.mpaypass.com.cn/news/202611/13172814.html
-
-4. 义乌市非税收缴微信支付缴费渠道代理银行（公开招标）
-招标方：义乌市财政局 | 预算：见公告 | 投标/开标：11月20日 10:00
+4. 义乌市非税收缴微信支付缴费渠道代理银行
+招标方：义乌市财政局；预算见公告；投标截止11月20日 10:00
 https://m.yfbzb.com/inviteBid/detail/20261112_647199629.html
 
-5. 广州农商银行综合支付系统项目（公开招标）
-招标方：广州农村商业银行 | 最高限价：350万元 | 报名截止：11月23日 9:00
-https://www.grcbank.com/grcbank/gywx/cggg/2026111317504752978/index.shtml
+5. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购
+招标方：邮储银行江苏省分行；预算1015万元；截止日见公告
+https://www.mpaypass.com.cn/news/202611/13182303.html
 
-6. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购（公开招标）
-招标方：邮储银行江苏省分行 | 预算：1015万元 | 文件获取截至11月19日，投标截止：12月4日 9:30
-https://www.chinapost.com.cn/cn/report/2611/3152-1.htm
+6. 广州农商银行综合支付系统项目
+招标方：广州农商银行；最高限价350万元；截止日见公告
+https://m.mpaypass.com.cn/news/202611/13185211.html
 
-中标/结果动态：
-- 建行无锡分行江阴小黑人商户聚合支付项目：入选江苏畅丰企业管理咨询有限公司，14.35万元
-https://m.mpaypass.com.cn/news/202611/13144355.html
-- 国航"国内渠道国际卡支付服务"中选候选人：易宝支付（公示至11月16日）
-https://pur.airchina.com.cn/001/001003/20261113/30902da0-9f48-412f-8305-913126afc01f.html
-- 河南农商银行收单业务商户收款软硬件采购中标候选人公示
-https://m.mpaypass.com.cn/news/202611/12182339.html
-- 广元市智慧城市统一支付系统收单机构采购项目终止（流标）
+另：广元市统一支付系统收单机构采购服务项目已发终止流标公告（11月13日）。
 https://m.scbid.com/bx/detail/4978300966_12798556.html
 
 免费订阅：hot.yqspay.com
