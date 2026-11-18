@@ -1,79 +1,71 @@
-2026-11-17
-每日早报 · 11月17日（周二）
+2026-11-18
+每日早报 · 11月18日
 
-一、AI 工具快报
+【一、AI 工具快报】
 
-1. 阿里 Qwen4-Max 发布（11/16）：2.4T 参数 MoE、100万上下文，官方称编程榜 Code Arena 第6，单任务成本比 Qwen3.8-Max 低约60%，已上 QwenCloud API，小尺寸开源版稍后放出。写代码/做 Agent 多了一个便宜的备选。
-https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max
+1. OpenAI 发布 GPT-6.2 Astra（旗舰）和 Sol（轻量），已上线 ChatGPT、Codex 和 API，输出 token 更少、成本更低。写代码和 Agent 任务可以直接换测。
+https://openai.com/index/introducing-gpt-6-2-astra-sol/
 
-2. 腾讯 Hy4 flash（11/16）：API 输入$0.07、输出$0.281/百万token，WorkBuddy 11/30 前免费用，TokenHub API 半价，即将上 OpenRouter 并开放权重。批量跑营销文案、表格类任务成本很低。
-https://technode.com/2026/11/16/tencent-launches-hy4-flash-cutting-ai-task-costs-by-95-in-internal-tests/
+2. 微软 Ignite 发布 MAI Code 2 / Code 2 Flash 编码模型，称达到 GPT-6.1 Sol 约 98% 编码质量，价格约 40%。做批量代码任务可省钱。
+https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/
 
-3. Claude Code v2.1.326（11/16）：Code Mode 现可与 agent teams 同时开；--allowedTools 规则写不全会在启动时警告；bypass 模式下更多操作需要审批，无人值守脚本升级后留意会不会卡住。
-https://claude-news.today/en/briefings/briefing-2026-11-17/
+3. 微软 MAI Realtime 1 语音对语音模型，每音频分钟约 0.01 美元。做语音外呼、获客机器人成本低。
+https://microsoft.ai/news/introducing-mai-realtime-1/
 
-4. 美团 LongCat-2.5 开放权重（据 ToolSift 报道）：1.6T MoE、约48B 激活，主打长链路编程 Agent，称 Terminal Bench v2.1 得分88.4。想本地/自托管编程模型可关注。
-https://toolsift.ai/llm-news/2026-11-16/
+4. 腾讯 Hy4 flash：1M 上下文、多模态，输入约 0.07 美元/百万 token，WorkBuddy 内 11 月 30 日前免费。适合低成本长文档处理。
+https://www.prnewswire.com/news-releases/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows-302941875.html
 
-5. Browser Use 1.0.6（11/16）：默认模型改为 bu-4.0，不传 llm 参数时费用会明显上升。做浏览器自动化获客的脚本升级前先检查。
-https://munderdiffl.in/blog/agent-tools-today-2026-11-16/
+5. 微软 MAI Image 2.7 / Flash：Microsoft Foundry 公开预览，约 35 / 10 美元每千张，另有 Canvas 工作区。营销配图可试。
+https://microsoft.ai/news/introducing-mai-image-2-7/
 
-6. 字节 Seedance 2.5 Flash（11/15 开放 API）：更快的视频生成模型，支持文/图生视频、编辑与延长至30秒，480p/720p。做短视频投放素材可试。
-https://newaitoolstoday.com/
+6. 阿里 Qwen4-Max 发布，价格低于同类旗舰（11-17 AI 日报提及）。
+https://12pb.com/en/news/ai-daily-2026-11-17
 
-本次检索未见新的公开邀请码或内测名额。
+【二、支付行业】
 
-二、支付行业动态
+行业动态
 
-1. 银联与 Visa 宣布深化合作（11/16）：在网络对网络“一点对接”互联互通、改善境外人士来华支付、AI 时代智能支付三方面合作。
-https://www.mpaypass.com.cn/news/202611/16193513.html
+1. 人民银行下发通知，进一步整治无证经营支付业务，持证机构须在下月底前自查为无证机构提供支付清算服务的行为。
+https://www.yesdaily.com/xinwen_18607.html
 
-2. 支付清算协会注销3家前支付机构会员资格（东方付通、湖南蓝天支付、河南建业支付）；2026年以来已有9家机构退出持牌序列。
+2. 鲲鹏支付结算延迟持续：部分商户已到账，仍有商户未收到款，监管仍在逐笔核查。
+https://cj.sina.com.cn/articles/view/1650111241/625ab30902001i6kq?finpagefr=p_104
+
+3. 中国支付清算协会注销东方付通、湖南蓝天支付、河南建业支付3家前支付机构会员资格。
 https://www.mpaypass.com.cn/news/202611/16145659.html
 
-3. 东台农商银行因违反银行卡收单业务管理、网络安全、反洗钱等7项规定，被人行盐城分行罚款92.4万元（11/16公示）。
-https://www.mpaypass.com.cn/news/202611/16181745.html
+4. 互金协会通报首批移动金融App自律检查：15款App有严重风险，海科融通在列。
+https://www.mpaypass.com.cn/news/202611/17153209.html
 
-4. 鲲鹏支付“未到账”事件进展：人行重庆分行工作组已进驻，经侦已立案，部分真实商户资金陆续到账，其余交易由工作组登记甄别清退（经济观察报）。
-https://finance.sina.com.cn/stock/wbstock/2026-11-14/doc-iniysepc0466438.shtml
+招标信息（按截止日由近到远）
 
-三、支付招标（按截止日期由近到远）
-
-1. 建行湖北省分行 2027年抖音支付营销活动权益项目供应商征集
-招标方：建设银行湖北省分行；预算：见公告；截止：11月17日16:00（今天）；要求取得抖音支付授权。
-https://www.zfzj.cn/kuaixun
-
-2. 内江农商银行智能播报终端设备采购（询价，20000台）
-预算：93万元；响应截止：11月20日10:00；限四川农商行入围供应商。
+1. 内江农商银行智能播报终端设备采购（2万台）｜预算93万｜响应截止11月20日10:00（入围供应商）
 https://www.mpaypass.com.cn/news/202611/16105110.html
 
-3. 青岛农商银行扫码收单系统架构优化及信创升级建设项目（公开招标）
-控制价：140万元；开标：11月25日14:00。
-https://www.mpaypass.com.cn/news/202611/16180410.html
+2. 邮储银行北京分行商户收单收款设备和物料采购（二次）｜招标文件获取至11月23日，投标截止见公告
+https://www.chinapost.com.cn/cn/report/2611/3593-1.html
 
-4. 北京银行信用卡中心线上外卡收单商户管理及3DS功能系统建设（竞争性磋商）
-预算：39.04万元；响应截止：11月27日15:30。
+3. 北京银行信用卡中心线上外卡收单商户管理及3DS系统建设（竞争性磋商）｜预算39.04万｜响应截止11月27日15:30
 https://www.mpaypass.com.cn/news/202611/16142910.html
 
-5. 西安银行收单业务外包服务项目（公开招标）
-预算：见公告；文件获取至11月18日17:00；开标：12月2日9:30；需收单外包备案。
-https://www.mpaypass.com.cn/news/202611/11180024.html
+4. 泽普县国库集中支付代理银行框架协议采购｜招标方泽普县财政局｜预算见公告｜开标12月1日16:00
+https://www.cgztbw.cn/class2/364847.html
 
-6. 甘肃农商银行快捷支付数字化运营项目（公开招标）
-预算：72万元；投标截止：12月4日9:00。
-https://www.mpaypass.com.cn/news/202611/13184353.html
+5. 中国邮政青海省分公司商户结算业务及场景建设服务商采购｜预算913万/年（3年共2739万）｜截止见公告
+https://www.chinapost.com.cn/cn/report/2611/4694-1.htm
 
-7. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购
-预算：1015万元；投标截止：12月4日9:30；拟中标3-4家。
-https://www.mpaypass.com.cn/news/202611/13182303.html
+6. 青岛农商银行扫码收单系统架构优化及信创升级｜控制价140万｜截止见公告
+https://www.mpaypass.com.cn/news/202611/16180410.html
 
-8. 广州农商银行综合支付系统项目（公开招标）
-最高限价：350万元；报名截止：11月23日9:00；开标：12月15日9:00。
-https://www.grcbank.com/grcbank/gywx/cggg/2026111317504752978/index.shtml
+7. 南京银行互金聚合支付现场维护服务｜预算见公告｜截止见公告
+https://www.mpaypass.com.cn/news/202611/17142508.html
 
-中标动态：
-- 湖南银行综合收单系统国产化改造：第一中标候选人信雅达，79.2万元（公示期3个工作日）。https://www.mpaypass.com.cn/news/202611/13181922.html
-- 中国银行安徽省分行收银一体化：第一成交候选人安徽科衍，含税73.75万元。https://www.mpaypass.com.cn/news/202611/16104658.html
-- 金华银行统一收单系统国产化改造：单一来源，拟定上海睿民，预算59.5万元。https://m.yfbzb.com/inviteBid/detail/20261116_647906501.html
+8. 兴业银行海口分行2027年度合作收单项目供应商征集｜预算见公告｜截止见公告
+https://cg.cib.com.cn/cms/default/webfile/gyszj/20261117/1307266055491551232.html
+
+中标动态
+- 人行青海省分行支付系统运行监控服务：京北方中标，136.5万 http://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261116_27693219.htm
+- 国航国际卡支付服务：易宝支付中选 https://pur.airchina.com.cn/001/001004/20261116/580bd7cb-0174-4b3d-b2dc-b7bc3449fc43.html
+- 中行安徽分行收银一体化：安徽科衍第一候选人，含税73.75万 https://www.mpaypass.com.cn/news/202611/16104658.html
 
 免费订阅：hot.yqspay.com
