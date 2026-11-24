@@ -1,63 +1,74 @@
-2026-11-23
-每日早报 · 11月23日（周一，覆盖周末）
+2026-11-24
+每日早报 · 11月24日
 
 【一、AI 工具快报】
-1. Google Gemini 4 Neon 上线：定位便宜的前沿 Agent/编程模型，$3/$15 每百万 token，100万上下文，已进 Gemini App（Pro/Ultra）、AI Studio API。写代码和做自动化可直接试。
-https://tech.yahoo.com/ai/gemini/articles/google-releases-gemini-4-neon-051643298.html
 
-2. Anthropic 发布更经济的 Claude Opus 5.5：称多数任务效果接近 Fable 5.1，但成本更低，Claude Code 用户可关注。
-https://www.akm.ru/eng/news/anthropic-has-introduced-a-more-economical-opus-5-5-model-/
+1. 智谱 GLM-5.4 发布：首个 Loop Transformer 旗舰（约750B参数），主打编码；GLM Coding Plan 订阅用户、ZCode、Z.ai Chat 已可用，API 待安全评估后开放。对你：写代码可直接试用。
+https://z.ai/blog/glm-5.4
 
-3. OpenAI GPT-Live-1.1 进 API，空闲时间按 $0.02/分钟计费；GPT-6.2 Astra/Sol 本周也已上线 API。做语音客服/外呼类产品可评估成本。
-https://blog.jiufeng.ai/releases
+2. Anthropic 发布 Claude Ship：一套 AI 代理，自动做代码审查、修复，并可按团队策略自动批准常规改动。对你：可减轻代码评审负担。
+https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes
 
-4. Together AI 上线阿里 Qwen4 Max（100万上下文），限时 7 折至 11月22日（已到期，注意价格）。
-https://12pb.com/en/news/ai-daily-2026-11-22
+3. OpenAI 推出 ChatGPT 专用版 GPT-6.2 Sol：复杂指令与联网检索更强，向 Plus/Pro/Business/Enterprise 推送。
+https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol
 
-5. Thinking Machines 开源 Inkling 2 Mini（26B，可笔记本跑，据称小模型里代理编程领先）。想本地跑编程 Agent 可试。
-https://anishoai.com/en/news/ai-models/2026-11-22
+4. 月之暗面 Kimi K3.1 Pro 及 Highspeed 版上线：kimi.com、App、Kimi Code、API 均可用。对你：多一个可选的编程模型。
+https://gmteight.com/flash/detail/1572324
 
-6. Sarvam-105B-1711 开源：混合价 $0.15/百万 token，降三分之二，适合高并发客服/语音 Agent。
-https://www.sarvam.ai/blogs/sarvam-105b-1711
+5. Thinking Machines 开源权重编码模型 Inkling 2 Mini。对你：可本地/自部署试用。
+https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/
 
-（本期未发现公开邀请码/内测名额。）
+6. Sarvam-105B-1711 开源模型更新：约 $0.15/百万token，适合低成本语音/对话代理。
+https://www.unrot.co/ai-news/2026/11/23
 
 【二、支付行业动态】
-1. 人行江西省分行公示：建行江西省分行因违反支付结算、金融科技等规定被罚503.48万元，3名责任人各罚5万元。
-https://fintecher.news/items/q510ajes55kf7fymxqzsszazk
 
-2. 吉林通卡支付牌照11月12日注销，年内第10家，累计注销118张，持牌机构降至153家。
-https://news.bjd.com.cn/2026/11/22/12039717.shtml
+1. 央行再注销一张支付牌照：吉林通（预付卡），年内已注销10张，累计118张，持牌机构剩153家。
+https://www.yicai.com/news/103450411.html
 
-3. 微信支付：12月21日起，「长期无交易」机构商户管控解除改为商户在商家助手自助确认使用意愿，服务商无需代申诉，系统需对接调整。
-https://www.zfzj.cn/category/news/dongtai?order=comments
+2. 建行江西省分行因违反支付结算等5项违规被罚503.48万元，3名责任人各被罚5万元。
+https://www.mpaypass.com.cn/news/202611/23105831.html
 
-4. 鲲鹏支付11月20日第三次公告：商户未到账资金力争12月底前完成结算。
-https://news.bjd.com.cn/2026/11/20/12038116.shtml
+3. 中国银联联手申通地铁上线银联卡轨道交通计次票；银联国际与新加坡UOB、NETS深化中新跨境支付合作。
+https://www.mpaypass.com.cn/
+
+4. 前三季度支付机构罚没超3.5亿元，单笔最高7445万元（瀚银科技），穿透式监管持续。
+https://news.qq.com/rain/a/20261014A0BHHA00
 
 【三、支付招标（按截止日由近到远）】
-1. 秦皇岛银行 收单聚合支付场景建设-智慧校园项目（单一来源）｜招标方：秦皇岛银行｜预算17万元｜报名截止11/26，投标截止12/01
+
+1. 平安银行重庆分行收单专业化服务外包项目供应商寻源
+招标方：平安银行重庆分行｜预算：见公告｜报名截止：11月25日（覆盖存量机具约2000台、码牌1万+）
+https://www.mpaypass.com.cn/news/202611/23140821.html
+
+2. 秦皇岛银行收单聚合支付场景建设-智慧校园项目（单一来源）
+招标方：秦皇岛银行｜预算：17万元｜报名截止11月26日，截止/开标12月1日
 https://www.qianlima.com/bid-649514193.html
 
-2. 银联商务 2026年非银行支付机构支付业务设施技术认证服务采购（竞争性磋商）｜招标方：银联商务｜预算见公告｜报名11/25 17:00，响应12/01 14:00
-https://www.mpaypass.com.cn/news/202611/18175627.html
-
-3. 建设银行江苏省分行 商户收单用扫码终端采购｜最高限价172.1万元｜投标截止12/10 09:00
-https://www.mpaypass.com.cn/news/202611/20192458.html
-
-4. 北京农商银行 2027-2029年自收单商户运维服务商价格入围｜现有POS约20262台｜文件获取至11/24，投标截止12/10 13:30
-https://www.zchyzb.com/class4/257547.html
-
-5. 无锡农商银行 2027-2028年收单业务外包及拓展服务合作机构入围｜外包费年度封顶400万元｜投标截止12/15
-https://www.qianlima.com/bid-649792000.html
-
-6. 武当山智慧旅游平台 农行综合收银台对接开发（竞争性磋商）｜十堰武当智慧旅游｜预算63万元｜文件获取11/23-11/27，截止见公告
+3. 武当山智慧旅游平台农行综合收银台对接开发服务（竞争性磋商）
+招标方：十堰武当智慧旅游有限公司｜预算：63万元｜文件获取至11月27日17:30
 http://www.wudangshan.gov.cn/xxgkxi/fdzdgk/tzgg/202611/t20261120_5030551.shtml
 
-7. 浦发银行 数字人民币权益服务商采购（入围2-5家）｜文件获取至11/23 17:00｜开标日见公告
-https://www.mpaypass.com.cn/news/202611/18160948.html
+4. 兴业银行南平分行2027年零售自收单第三方专业化服务项目
+招标方：兴业银行南平分行｜限价：智能POS 65元/台/月等｜报名截止11月27日，投标截止12月10日
+https://fj.qianlima.com/zbcontent-649717959.html
 
-8. 【中标候选】邮储银行江苏省分行 江苏省烟草公司终端智能收单设备采购：第一名福建新大陆支付，第二名青岛海石商用，公示至11/23 17:00
-https://www.mpaypass.com.cn/news/202611/18103334.html
+5. 贵州农信IT设备统一选型（手持智能POS、云音响等）框架协议
+招标方：贵州农商联合银行｜预算：见公告｜开标12月15日 9:30
+https://gz.zhiliaobiaoxun.com/article/120228779
+
+6. 建设银行江苏省分行商户收单用扫码终端采购
+招标方：建行江苏省分行｜最高限价172.1万元｜截止：见公告
+https://www.mpaypass.com.cn/news/202611/20192458.html
+
+7. 无锡农商银行2027-2028年度收单业务外包及拓展服务合作机构入围
+招标方：无锡农商银行｜预算：1000万元｜截止：见公告
+https://www.mpaypass.com.cn/news/202611/23174219.html
+
+中标动态：
+湖南银行联合收单合作机构：候选人第一名拉卡拉，其后通联、嘉联、银联商务、易生等；扫码费率0.24%，借记卡0.45%（封顶19元），贷记卡0.55%。
+https://www.mpaypass.com.cn/news/202611/23173325.html
+华夏银行南宁分行聚合支付技术服务外包：成交为上海杉昊、武汉利楚、深圳银享惠。
+https://www.mpaypass.com.cn/news/202611/23200139.html
 
 免费订阅：hot.yqspay.com
