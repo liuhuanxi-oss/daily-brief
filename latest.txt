@@ -1,69 +1,49 @@
-2026-11-26
-每日早报 · 11月26日（周四）
+2026-11-27
+每日早报 · 11月27日（周五）
 
-一、AI 工具快报
+【一、AI 工具快报】
 
-1. Anthropic 推出 Claude Ship（测试版）：Claude 可自动审查 PR、推送修复并在团队设定的策略内批准，Claude Code 里用 /ship 触发，限 Team/Enterprise 的 GitHub 仓库。做开发可省 code review 时间。
-https://dev.to/hiroki-ii-ai/ai-daily-digest-november-25-2026-jensen-huang-returns-to-lead-nvidia-walmart-opens-its-aisles-jgn
+1. 开源编程模型：JetBrains 发布 Mellum2.1 Instruct（12B MoE，仅激活2.5B），Apache 2.0，Hugging Face 免费下载，可本地跑，适合做离线代码补全/自建 agent。https://applycoding.com/news/2026-11-26-jetbrains-releases-mellum2-1-instruct-a-faster-open-coding-model
 
-2. Claude Code 2.1.332：MCP 服务器可自带 skills（公测，Pro/Max 默认开），MCP Tasks 与 Elicitation 正式可用。自建 MCP 工具时可直接打包技能。
-https://ai-tldr.dev/tools/claude-code/
+2. Cognition 发布 SWE-2.1（Devin 背后的编程模型，基于 Kimi K3 强化学习），官方称 Terminal-Bench 4.1 从24.2升到50.0（厂商自测）。做开发可关注 Devin 的新能力。https://dev.to/hiroki-ii-ai/ai-daily-digest-november-26-2026-one-meter-for-chatgpt-and-codex-cognition-doubles-down-europe-2j0o
 
-3. 智谱 GLM Coding Plan 限时双倍：11月24日至12月24日，GLM-5.3-Flash 消耗减半，可叠加非高峰半价，Claude Code/Codex/OpenCode 等都能用（Lite 118元/月）。写代码成本更低。
-https://mozhenzhen.com/news/zhipu-glm-coding-plan-53-flash-double-quota-20261125
+3. OpenAI 修正 GPT-6.2 计费统计错误：Astra 额度消耗快40%、Sol 快25%，不补扣费，并给 Go/Plus/Pro/Business 一次额度重置。用 Codex/ChatGPT 的要留意限额。https://www.explainx.ai/catch-up-on-ai/2026-11-26
 
-4. 腾讯混元 Hy4 flash 开源并限时免费：WorkBuddy、OpenCode 有免费额度，OpenRouter 五折到11月30日（输入 $0.035/百万 tokens）。跑批量内容、客服自动化很划算。
-https://aihot.news/story/f54f5245-d324-4798-af1d-ca328fcdf9f3
+4. 视频模型降价：Sand AI 开放 MAGI-2（480B），图生视频榜第一，API 约0.08美元/秒，约为 Seedance 2.5 的1/7。做营销短视频获客成本更低。https://x.com/ArtificialAnlys/status/2125759745655210113
 
-5. 匿名模型 HungerG 登陆 OpenCode 和 Qoder：100万上下文、支持多模态，Qoder 免费到11月30日，上线一天冲到 OpenCode 调用榜第三。可以白嫖实测。
-https://www.zhidx.com/p/614323.html
+5. 蚂蚁 Ling-3.2-air 开源权重（MIT 协议，可商用，多模态，面向办公自动化 agent；成绩为厂商自测）。https://valcyonix.com/articles/today-in-ai-2026-11-26.html
 
-6. OpenCode「Gimme Kimi」活动：$10 买 $60 的 Kimi K3.1 Pro 用量，OpenCode Go 订阅用户可用。想用开源最强编程模型的可以试。
-https://iadecider.com/ai-news
+6. 腾讯开源模型 Hy4 Flash 上线 Fireworks 无服务器（约220B/12B激活，1M上下文），可直接 API 调用试用。https://12pb.com/en/news/ai-daily-2026-11-26
 
-二、支付行业
+今日未查到公开邀请码/内测名额。
 
-动态
-1. 吉林通支付牌照注销（11月12日），年内第10家，累计注销118张，现存持牌机构153家，多为区域性预付卡牌照提前退出。
-https://www.yicai.com/news/103450411.html
+【二、支付行业动态】
 
-2. 建行江西省分行因违反支付结算等5项违规，被罚503.48万元，3名责任人各被罚5万元。
-https://www.mpaypass.com.cn/news/202611/23105831.html
+1. 年内第10家支付牌照注销：吉林通卡支付注销（注销日11月12日），累计注销118张，持牌机构降至153家，预付卡类占八成以上。http://finance.ce.cn/bank12/scroll/202611/t20261124_3303625.shtml
 
-3. 海科融通要求收单外包机构于11月25日前完成备案变更：按支付清算协会自律要求，备案服务地域只能填注册地和分公司所在地，不得选「全国」。
-https://www.zfzj.cn/kuaixun
+2. 机构股权调整：联行支付实控人变更为自然人董新建获批；付临门更名上海富临门支付；成都摩宝变更申请未获批。http://finance1.ce.cn/bank12/scroll/202611/t20261126_3306770.shtml
 
-4. 联行支付获批变更实控人为自然人董新建；成都摩宝的股东、实控人等变更申请未获批。
-https://www.cnsonews.com.cn/bank/20261126/adadc16de1753d72149e8b889c176e68.html
+3. 外包备案收紧：海科融通提醒，按支付清算协会要求，收单外包机构备案服务地域只能填注册地及分公司所在地，不得选“全国”。https://www.zfzj.cn/kuaixun
 
-招标信息（按截止日由近到远）
-1. 无锡农商银行2027-2028年度收单业务外包服务及拓展服务合作机构入围项目｜无锡农商银行｜预算1000万元｜购标截止11月27日16:00，投标/开标12月15日13:30｜
-https://www.mpaypass.com.cn/news/202611/23174219.html
+4. 罚单：建行江西分行因支付结算等违规被罚503.48万元；中行漯河分行被罚117.6万元。https://www.mpaypass.com.cn/news/202611/24084939.html
 
-2. 北京银行信用卡中心数字化收单业务合规功能升级改造项目（第二次，竞争性磋商）｜北京银行信用卡中心｜预算见公告｜获取文件截止11月30日17:00｜
-https://www.ulilink.com/newDetailsView?id=5887a48a22e3be43d6484949ea7656d3ad55bca60e86149023e16336cd5603b6
+【三、支付招标（按截止日由近到远）】
 
-3. 2027-2029年度物美POS收单运维服务（单一来源，拟定杉德银卡通）｜北京农商银行｜预算见公告｜公示至11月30日｜
-https://www.bjrcb.com/jzcgxxgg/info/CPMS_MH20261124_1/html/fc3d91c663834d3cb4ac316129502983.html
+1. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购｜预算1015万元｜截止/开标：12月4日 09:30（11月12日发布，仍在投标期）｜https://www.chinapost.com.cn/cn/report/2611/3152-1.htm
 
-4. 长沙农商银行收单行业应用与场景化服务交流（非采购，仅限长沙六区机构）｜长沙农商银行｜无预算｜报名截止12月3日｜
-https://www.mpaypass.com.cn/news/202611/23173838.html
+2. 广发银行信用卡中心微信和支付宝服务商集采｜拟选3-5家，合同2年，保证金10万元｜报名至12月2日17:30，截止/开标12月8日 09:30｜https://www.mpaypass.com.cn/news/202611/25175037.html
 
-5. 广发银行信用卡中心微信和支付宝服务商集采项目（拟选3-5家，服务期2年）｜广发银行信用卡中心｜预算见公告｜报名12月2日17:30，投标截止12月8日9:30｜
-https://www.mpaypass.com.cn/news/202611/25175037.html
+3. 华夏银行成都分行收单业务聚合支付技术外包服务项目（竞争性磋商）｜预算、截止日见公告｜11月26日发布｜https://www.ahzb.net/info/china/134130269.html
 
-6. 网上支付平台服务（二次，竞争性磋商）｜福州某单位（名称公告打码）｜预算30万元，服务费最高限价1%｜截止见公告｜
-https://bid.tgnet.com/Bidding/004723569920972477n1.html
+4. 农行西藏分行商户收单业务外包服务项目（公开招标）｜预算、截止日见公告｜11月26日发布｜https://biaoxun.shuidi.cn/company-detail/0e1357a3a34513ce3556f8de969dd601.html
 
-7. 国家税务总局云南省税务局无纸化电子支付系统运维项目（2026年度）｜云南省税务局｜预算见公告｜截止见公告｜
-http://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261124_27746213.htm
+5. 深圳电信基于聚合支付平台的综合支付平台二次开发服务（询比）｜预估45.67万元（不含税）｜截止日见公告｜11月26日发布｜https://www.yfbzb.com/inviteBid/detail/20261126_651591531.html
 
-中标动态
-- 湖南银行联合收单业务合作机构：拉卡拉、通联、嘉联、银联商务、易生、随行付、盛付通进入候选，扫码费率均为0.24%，借记卡0.45%（19元封顶），贷记卡0.55%，前五名将中标。
-https://www.hunan-bank.com/96599/2026-11/23/article_2026112315574486063.shtml
-- 农行宁夏分行商户收单外包：深圳银雁科技中标，商户维护费15.80元/户/月（含税），公示至11月30日。
-https://nx.zhiliaobiaoxun.com/article/120850846
-- 华夏银行南宁分行聚合支付技术服务外包：杉昊、利楚、银享惠成交。
-https://www.mpaypass.com.cn/news/202611/23200139.html
+6. 四川农商银行“蜀信e·惠支付”支付结果页广告运营合作机构评选｜预算见公告｜截止日见公告｜11月26日发布｜http://sso.scrcu.com/other/gsgg/20261126/1059079.html
+
+中标动态：
+- 兴业银行福州分行2027-2028零售合作收单：通联、银联商务、星驿、拉卡拉、收钱吧、银盛、嘉联入围，公示至11月30日。https://www.mpaypass.com.cn/news/202611/26174331.html
+- 兴业银行深圳分行2027-2028合作收单机构营销：星驿、乐刷、随行付等12家候选，公示至11月30日。https://www.mpaypass.com.cn/news/202611/25175518.html
+- 南通农商银行2027年收单业务外包：上海力竹中标候选，报价94.68万元。https://www.mpaypass.com.cn/news/202611/26174058.html
 
 免费订阅：hot.yqspay.com
