@@ -1,49 +1,70 @@
-2026-11-27
-每日早报 · 11月27日（周五）
+2026-11-28
+每日早报 · 11月28日（周六）
 
 【一、AI 工具快报】
 
-1. 开源编程模型：JetBrains 发布 Mellum2.1 Instruct（12B MoE，仅激活2.5B），Apache 2.0，Hugging Face 免费下载，可本地跑，适合做离线代码补全/自建 agent。https://applycoding.com/news/2026-11-26-jetbrains-releases-mellum2-1-instruct-a-faster-open-coding-model
+1. Codewhale：开源 Rust 终端编程 Agent，GitHub 41.2K 星，支持 50+ 模型商和 Ollama 等本地模型，默认 DeepSeek V4.1 Flash，带 /undo 和 PR 审查（codewhale review --pr N）。用便宜模型就能跑类似 Claude Code 的流程。
+https://github.com/codewhale-hq/Codewhale
 
-2. Cognition 发布 SWE-2.1（Devin 背后的编程模型，基于 Kimi K3 强化学习），官方称 Terminal-Bench 4.1 从24.2升到50.0（厂商自测）。做开发可关注 Devin 的新能力。https://dev.to/hiroki-ii-ai/ai-daily-digest-november-26-2026-one-meter-for-chatgpt-and-codex-cognition-doubles-down-europe-2j0o
+2. Clay 测算：用 AI 给 4000 万家公司做客户画像匹配打分只需约 1500 美元，1 万家名单约 0.38 美元。获客里「筛选」已近乎免费，价值在后续触达；合理预算约 1-10 美元/有效线索。
+https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/
 
-3. OpenAI 修正 GPT-6.2 计费统计错误：Astra 额度消耗快40%、Sol 快25%，不补扣费，并给 Go/Plus/Pro/Business 一次额度重置。用 Codex/ChatGPT 的要留意限额。https://www.explainx.ai/catch-up-on-ai/2026-11-26
+3. Clay 建议：自训模型要等年 AI 开销达 1000 万-1 亿美元才划算，小团队先用开源模型+好提示词。
+https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/
 
-4. 视频模型降价：Sand AI 开放 MAGI-2（480B），图生视频榜第一，API 约0.08美元/秒，约为 Seedance 2.5 的1/7。做营销短视频获客成本更低。https://x.com/ArtificialAnlys/status/2125759745655210113
+4. GPT-6.2 Astra：有作者称能在 30-60 分钟内证明百万变量优化题的最优性，属个人博客单方说法，暂无独立验证，先当信号。
+https://x.com/DmitryRybin1/status/2125618051160932430
 
-5. 蚂蚁 Ling-3.2-air 开源权重（MIT 协议，可商用，多模态，面向办公自动化 agent；成绩为厂商自测）。https://valcyonix.com/articles/today-in-ai-2026-11-26.html
+5. Nothing Ear (note)：带录音转写的 AI 耳机，12 月 8 日正式发布，价格和订阅未知。
+https://www.therundown.ai/news/nothing-ear-note-ai-recording-earbuds
 
-6. 腾讯开源模型 Hy4 Flash 上线 Fireworks 无服务器（约220B/12B激活，1M上下文），可直接 API 调用试用。https://12pb.com/en/news/ai-daily-2026-11-26
+6. Google Cogentic：未公告地在 GitHub 放出 6 篇由 Gemini 4 系列模型 Agent 生成的研究论文。
+https://x.com/AndrewCurran_/status/2125596087520223658
 
-今日未查到公开邀请码/内测名额。
+（今日未发现公开邀请码或新的降价信息。）
 
 【二、支付行业动态】
 
-1. 年内第10家支付牌照注销：吉林通卡支付注销（注销日11月12日），累计注销118张，持牌机构降至153家，预付卡类占八成以上。http://finance.ce.cn/bank12/scroll/202611/t20261124_3303625.shtml
+1. 央行贵州分行11月27日公示：嘉联支付贵州分公司因违反清算管理、数据安全规定，被没收违法所得56.7万元、罚款192.5万元；贵阳银行因违反收单业务管理等被罚228.3万元。
+https://finance.sina.com.cn/jryx/fd/2026-11-27/doc-inkaewua5387758.shtml
+https://finance.sina.com.cn/jryx/fd/2026-11-27/doc-inkaewtw7734519.shtml
 
-2. 机构股权调整：联行支付实控人变更为自然人董新建获批；付临门更名上海富临门支付；成都摩宝变更申请未获批。http://finance1.ce.cn/bank12/scroll/202611/t20261126_3306770.shtml
+2. 付临门更名「上海富临门支付」，重整计划执行完毕，注册资本增至2亿元，原合同继续履行。
+https://www.163.com/dy/article/LCOFSBUN05568W0A.html
 
-3. 外包备案收紧：海科融通提醒，按支付清算协会要求，收单外包机构备案服务地域只能填注册地及分公司所在地，不得选“全国”。https://www.zfzj.cn/kuaixun
+3. 年内已有十家持牌支付机构退出，央行累计注销支付牌照118张；行付通获批吸收合并东方付通，12月25日起分批切换备付金账户。
+https://www.cnsonews.com.cn/bank/20261126/adadc16de1753d72149e8b889c176e68.html
+https://www.mpaypass.com.cn/news/202611/26181726.html
 
-4. 罚单：建行江西分行因支付结算等违规被罚503.48万元；中行漯河分行被罚117.6万元。https://www.mpaypass.com.cn/news/202611/24084939.html
+4. 商务部等8部门印发《服务贸易发展“十五五”规划》，提出完善入境支付便利化、拓宽 CIPS 网络；东盟与中日韩成立跨境数字支付工作组。
+https://www.mpaypass.com.cn/news/202611/26181726.html
 
-【三、支付招标（按截止日由近到远）】
+【三、支付招标（含中标动态）】
 
-1. 邮储银行江苏省分行2027-2029年全省收单业务外包服务集中采购｜预算1015万元｜截止/开标：12月4日 09:30（11月12日发布，仍在投标期）｜https://www.chinapost.com.cn/cn/report/2611/3152-1.htm
+1. 北京农商银行 2027-2029年物美POS收单运维服务（单一来源，拟定杉德银卡通）｜公示截止11月30日｜预算见公告
+https://www.bjrcb.com/jzcgxxgg/info/CPMS_MH20261124_1/html/fc3d91c663834d3cb4ac316129502983.html
 
-2. 广发银行信用卡中心微信和支付宝服务商集采｜拟选3-5家，合同2年，保证金10万元｜报名至12月2日17:30，截止/开标12月8日 09:30｜https://www.mpaypass.com.cn/news/202611/25175037.html
+2. 中免集团（北京）首都机场上门收款及收单结算服务（重新招标）｜招标人：中免集团（北京）免税品｜文件获取11月27日-12月2日，开标日见公告｜合同至2033年2月
+https://dzzb.ctg.cn/cms/cmszhaozhaobiaoysgg/c4c0c8d4e3184e419cb93bc1dccc04cc.html
 
-3. 华夏银行成都分行收单业务聚合支付技术外包服务项目（竞争性磋商）｜预算、截止日见公告｜11月26日发布｜https://www.ahzb.net/info/china/134130269.html
+3. 交通银行深圳分行2027年收单业务线下维护服务（POS/二维码装撤机、巡检等，选1家，服务期1年）｜11月27日发布｜截止日见公告
+https://gd.zhiliaobiaoxun.com/article/121185541
 
-4. 农行西藏分行商户收单业务外包服务项目（公开招标）｜预算、截止日见公告｜11月26日发布｜https://biaoxun.shuidi.cn/company-detail/0e1357a3a34513ce3556f8de969dd601.html
+4. 华夏银行成都分行收单业务聚合支付技术外包（竞争性磋商）｜11月26日发布｜预算、截止日见公告
+https://www.ahzb.net/info/china/134130269.html
 
-5. 深圳电信基于聚合支付平台的综合支付平台二次开发服务（询比）｜预估45.67万元（不含税）｜截止日见公告｜11月26日发布｜https://www.yfbzb.com/inviteBid/detail/20261126_651591531.html
+5. 华夏银行兰州分行收单外包集中采购、成都分行POS巡检外包（供应商征集）｜11月27日发布｜详情见公告
+https://biaoxun.shuidi.cn/company-detail/0e1357a3a34513ce3556f8de969dd601.html
 
-6. 四川农商银行“蜀信e·惠支付”支付结果页广告运营合作机构评选｜预算见公告｜截止日见公告｜11月26日发布｜http://sso.scrcu.com/other/gsgg/20261126/1059079.html
+6. 农行西藏分行商户收单业务外包服务（公开招标）｜11月26日发布｜详情见公告（同上页）
+https://biaoxun.shuidi.cn/company-detail/0e1357a3a34513ce3556f8de969dd601.html
+
+7. 深圳电信聚合支付平台的综合支付平台二次开发（询比）｜预估45.67万元（不含税）｜11月26日发布｜截止见公告
+https://www.yfbzb.com/inviteBid/detail/20261126_651591531.html
 
 中标动态：
+- 邮储银行河南省分行2026年收单业务外包：第一候选人福建银众，另有北京盛华伟兴、杉昊、旺壹、博北，公示11月28-30日。https://www.mpaypass.com.cn/news/202611/27202828.html
 - 兴业银行福州分行2027-2028零售合作收单：通联、银联商务、星驿、拉卡拉、收钱吧、银盛、嘉联入围，公示至11月30日。https://www.mpaypass.com.cn/news/202611/26174331.html
-- 兴业银行深圳分行2027-2028合作收单机构营销：星驿、乐刷、随行付等12家候选，公示至11月30日。https://www.mpaypass.com.cn/news/202611/25175518.html
-- 南通农商银行2027年收单业务外包：上海力竹中标候选，报价94.68万元。https://www.mpaypass.com.cn/news/202611/26174058.html
+- 南通农商银行2027年收单业务外包：上海力竹中标，946800元。https://www.mpaypass.com.cn/news/202611/26174058.html
 
 免费订阅：hot.yqspay.com
